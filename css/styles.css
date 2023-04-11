@@ -1,0 +1,68 @@
+
+  .sticky {
+    position: sticky;
+    width: 25px;
+    top: 20px;
+    display:flex
+  }
+  .wrapper {
+    margin: auto;
+    size: contain; 
+    height: 50px;   
+
+  }
+  @media (min-height: 306px) {
+    .sticky{
+      height: 10px;
+    }
+    }
+  .pointer {
+    cursor: url("../cursor/pointer.gif"), auto;
+    background: green;
+    }
+  .move{
+      cursor: url("../cursor/ezgif.com-gif-maker.gif") , auto;
+  }
+  .text {
+    
+    cursor: url("../cursor/text.gif"), auto;
+    background: rgba(41, 40, 40, 0.623);
+
+  }
+  .text h4 , h1 ,h2{
+      color: rgba(58, 58, 211, 0.959);
+  }
+  .text p{
+      color: burlywood;
+  }
+  .pointer p{
+    color: burlywood;
+}
+.pointer tr{
+
+    color: burlywood;
+}
+.carousel-control-prev-icon{
+    background-color: darkgreen;
+}
+.carousel-control-next-icon{
+    background-color: darkgreen;
+}
+  .text strong{
+      color: cadetblue;
+  }
+  .text em{
+      color: rgb(148, 148, 153);
+  }
+  .font-weight-bold{
+      color: darkgray;
+  }
+  .text b{
+      color: darkgreen;
+  }
+  
+  .link {
+    cursor: url("../cursor/link.gif"), auto;
+      background-color: orange;
+
+  }
